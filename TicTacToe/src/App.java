@@ -53,7 +53,7 @@ public class App {
         System.out.println(player1.getName()+" it's yours turn"+"(Your symbol is "+player1.symbol+" ):");
              
             while(game.fillCell(sc.nextInt(),player1,board)){
-                System.out.println("Already filled cell try again!");
+                 System.out.println("Error occured see again!");
             }
             if(game.getWinner(player1,board.size,board)==1){
                 System.out.println("------------------------------");
